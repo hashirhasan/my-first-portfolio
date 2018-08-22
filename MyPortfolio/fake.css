@@ -1,0 +1,20 @@
+.gn{
+  padding-left:20vw;
+  padding-top: 2vw;
+}
+ .gn1{
+  padding-left:15vw;
+  padding-top: 1vw;
+ }
+ img{
+  
+  box-shadow: 2px 2px grey;
+ }
+ .colour{
+  background: url("https://scontent.fdel1-4.fna.fbcdn.net/v/t1.0-9/34755355_1358507320915572_7946933225639641088_n.jpg?_nc_cat=0&oh=fb68b62611efed9e578b2f75f2c3cf42&oe=5C0009A9");
+  opacity: 0.8;
+  background-repeat: n;
+  background-attachment: fixed;
+  background-size: cover;
+
+ }
