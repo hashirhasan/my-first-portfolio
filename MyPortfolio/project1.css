@@ -12,7 +12,7 @@ hr{
   background-repeat: no-repeat;
   background-size: cover;
   font-family: sans-serif;
-  height: 100vw;
+  height: 90vw;
   z-index: 0;
 
 }
@@ -49,6 +49,7 @@ hr{
 	font-size: 23px;
 	display:block;
  position:sticky;
+ transition:0.4s ease;
 }
 #navbar li ul{
 	margin-top: 17px;
@@ -71,11 +72,12 @@ hr{
 	text-align: center;
 	text-decoration: none;
 	font-size: 19px;
+    /*transition: .2s ease;*/
 
 }
 #navbar li ul li a:hover{
-
-	color:red;
+  /*font-size:22px;*/
+  color:red;
 }
 #navbar li>a:hover
 {
@@ -161,7 +163,7 @@ h3{
 
 
 .boy,.girl ,.back{
-  opacity: 0.8;
+  opacity: 0.9;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -190,8 +192,7 @@ Turn off parallax scrolling for tablets and mobiles
 
 .zoom:hover {
   transform: scale(1.4); 
-  transition: transform .2s;
-  color:black;
+   color:black;
 }
 
 .footer{
