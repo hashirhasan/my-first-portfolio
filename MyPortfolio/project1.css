@@ -3,6 +3,9 @@
 	margin:0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 hr{
 	width:70%;
 	margin: 0 auto;
@@ -82,6 +85,7 @@ hr{
 #navbar li>a:hover
 {
 	color: black;
+    
 }
 h1{
  left:21.25vw;
